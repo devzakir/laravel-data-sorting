@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('task','TaskController@index');
-Route::post('task/update-order','TaskController@updateOrder')->name('hello');
+Route::post('task/update-order','TaskController@updateOrder')->name('task.updateOrder');
